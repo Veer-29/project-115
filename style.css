@@ -1,0 +1,29 @@
+h3{
+    font-size: 25px !important;
+}
+
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+.btn-success{
+    background-image: linear-gradient(to left,#7ae27a,#0b631e,#3bdf6c);
+    box-shadow: #4fe74a;
+    }
+
+.btn-info{
+    background-image: linear-gradient(to left,#FDA7DF,#5f0b7e,#FDA7DF);
+    box-shadow: #5a1468;
+    }
+
+
+.btn:hover{
+    background-position: right;
+}
